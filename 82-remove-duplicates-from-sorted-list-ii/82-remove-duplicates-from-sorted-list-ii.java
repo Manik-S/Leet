@@ -12,7 +12,6 @@ class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         
         ListNode left=null;
-        ListNode right;
         ListNode newHead=null;
         int valu=-1101010;
         while(head !=null)
